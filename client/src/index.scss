@@ -18,3 +18,7 @@ $font-family-base: 'Helvetica Neue', Arial, sans-serif;
   color: $dark;
   height: 100vh;
 }
+.rounded-top{
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}

@@ -5,6 +5,7 @@ import SignupPage from "./pages/auth/SignupPage";
 import Login from "./pages/auth/LoginPage";
 import OtpPage from "./pages/auth/OtpPage";
 import ChangePassword from "./pages/auth/ChangePassword";
+import Products from "./pages/user/Products";
 
 function App() {
   const [ForgotPassword, setForgotPassword] = useState(false);
@@ -27,6 +28,8 @@ function App() {
         />
         <Route path="/otp" element={<OtpPage />} />
         <Route path="/changePassword" element={<ChangePassword />} />
+        <Route path="/products" element={<Products/>} />
+
       </Routes>
     </div>
   );
